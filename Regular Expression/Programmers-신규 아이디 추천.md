@@ -10,7 +10,8 @@
 
 </br>
 
-:books: 내가 사용한 프로그래밍 언어 : Java, JavaScript
+:books: 내가 사용한 프로그래밍 언어 : Java, JavaScript  
+:roller_coaster: 난이도 : Level 1
 
 </br>
 

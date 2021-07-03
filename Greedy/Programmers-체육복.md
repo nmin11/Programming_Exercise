@@ -1,4 +1,4 @@
-## **Programmers > Greedy > 체육복**
+**Programmers > Greedy > 체육복**
 
 </br>
 
@@ -10,7 +10,8 @@
 
 </br>
 
-:books: 내가 사용한 프로그래밍 언어 : Java
+:books: 내가 사용한 프로그래밍 언어 : Java  
+:roller_coaster: 난이도 : Level 1
 
 </br>
 
