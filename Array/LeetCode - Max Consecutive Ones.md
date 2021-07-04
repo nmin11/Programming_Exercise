@@ -1,4 +1,4 @@
-**LeetCode > Array > Max Consecutive Ones**
+## **LeetCode > Array > Max Consecutive Ones**
 
 </br>
 
