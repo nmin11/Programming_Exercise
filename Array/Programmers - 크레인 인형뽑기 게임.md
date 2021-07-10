@@ -51,7 +51,7 @@
 
 </br>
 
-(크레인 게임 예시 이미지 첨부)
+![crane_game_104](https://user-images.githubusercontent.com/75058239/125149247-c1455580-e172-11eb-8324-ba800eea0587.jpg)
 
 </br>
 
