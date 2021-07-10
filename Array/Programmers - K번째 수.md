@@ -6,7 +6,7 @@
 
 </br>
 
-:books: 내가 사용한 프로그래밍 언어 : Java  
+:books: 내가 사용한 프로그래밍 언어 : Java, JavaScript  
 :roller_coaster: 난이도 : Level 1
 
 </br>
@@ -27,7 +27,7 @@ array, [i, j, k]를 원소로 가진 2차원 배열 commands가 매개변수로 
 
 </br>
 
-## 풀이
+## Java 풀이
 
 ```java
 import java.util.Arrays;
@@ -52,6 +52,28 @@ class Solution {
 그리고 Arrays의 copyOfRange라는 메소드도 처음 알게 되었지만 JavaScript의 slice와 유사한 용도로 보여서 사용하는 데에 크게 어려움을 느끼진 않았다.  
 copyOfRange에 대해서 간단하게 정리하자면, 첫번째 인자로 복사할 배열을 넣고, 두번째 인자로 복사를 시작할 인덱스를 넣고, 세번째 인자로 배열의 어디까지 복사할 것인지 해당 배열의 인덱스를 넣어준다.  
 그러면 간단하게 복사가 되고 변수에 할당해줄 수 있게 된다.
+
+</br>
+
+## JavaScript 풀이
+
+```javascript
+function solution(array, commands) {
+  var answer = [];
+  let slicedArr = [];
+
+  for (let i = 0; i < commands.length; i++) {
+    slicedArr = array.slice(commands[i][0] - 1, commands[i][1]);
+    slicedArr.sort((a, b) => a - b);
+    answer.push(slicedArr[commands[i][2] - 1]);
+  }
+
+  return answer;
+}
+```
+
+역시 JavaScript로도 풀어보니 금방 답을 도출해낼 수 있었다.  
+다만 조금 헷갈렸던 부분이 sort((a, b) => a - b); 부분이었는데, 이는 숫자들도 문자열 기준에 따라 정렬되기 때문에 이런 화살표 함수를 적용해 준 것이다.
 
 </br>
 
