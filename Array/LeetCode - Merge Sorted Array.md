@@ -110,6 +110,23 @@ class Solution {
 
 </br>
 
+## JavaScript 풀이
+
+JavaScript 풀이는 Java 풀이와 상당히 유사했지만, 지난번에 풀었던 프로그래머스의 K번째 수 문제와 같이, 배열을 sort할 때 화살표 함수를 활용해서 문자열이 아닌 숫자를 비교해서 sorting할 수 있도록 해줘야 했다.
+
+```javascript
+var merge = function (nums1, m, nums2, n) {
+  let temp = 0;
+  for (let i = m; i < m + n; i++) {
+    nums1[i] = nums2[temp];
+    temp++;
+  }
+  nums1.sort((a, b) => a - b);
+};
+```
+
+</br>
+
 ## 소감
 
 제발 문제를 꼼꼼히 읽자! :angry:
