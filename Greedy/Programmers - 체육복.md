@@ -6,7 +6,7 @@
 
 </br>
 
-:books: 내가 사용한 프로그래밍 언어 : Java  
+:books: 내가 사용한 프로그래밍 언어 : Java, JavaScript  
 :roller_coaster: 난이도 : Level 1
 
 </br>
@@ -149,3 +149,33 @@ class Solution {
 안쪽 첫 if문에서는 체육복이 없는 사람의 이전 번호가 여분이 있을 경우 두 사람 다 0이라는 값을 넣어준다.  
 그 다음 else if문에서는 체육복이 없는 사람의 다음 번호가 여분이 있을 경우 두 사람 다 0이라는 값을 넣어준다.  
 이런 작업들을 수행하지 못한다면 총원에서 -1 씩 해준 뒤, 마지막에 그 값을 반환하는 것이다.
+
+</br>
+
+## JavaScript 풀이
+
+위의 '다른 사람의 풀이'를 참조하여 JavaScript로도 풀어보았다.
+
+```javascript
+function solution(n, lost, reserve) {
+  let answer = n;
+  let people = Array(n).fill(0);
+
+  for (let l of lost) people[l - 1]--;
+  for (let r of reserve) people[r - 1]++;
+
+  for (let i = 0; i < people.length; i++) {
+    if (people[i] === -1) {
+      if (i - 1 >= 0 && people[i - 1] === 1) {
+        people[i]++;
+        people[i - 1]--;
+      } else if (i + 1 < people.length && people[i + 1] === 1) {
+        people[i]++;
+        people[i + 1]--;
+      } else answer--;
+    }
+  }
+
+  return answer;
+}
+```
