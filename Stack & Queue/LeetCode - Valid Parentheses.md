@@ -1,4 +1,4 @@
-bb## **LeetCode > Stack > Valid Parentheses**
+## **LeetCode > Stack > Valid Parentheses**
 
 </br>
 
