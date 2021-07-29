@@ -1,4 +1,4 @@
-b## **LeetCode > Array / Hash Table / Matrix > Valid Parentheses**
+## **LeetCode > Array / Hash Table / Matrix > Valid Parentheses**
 
 </br>
 
