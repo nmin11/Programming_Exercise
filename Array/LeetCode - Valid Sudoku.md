@@ -1,4 +1,4 @@
-b## **LeetCode > Array / Hash Table / Matrix > Valid Parentheses**
+## **LeetCode > Array / Hash Table / Matrix > Valid Parentheses**
 
 </br>
 
@@ -74,6 +74,12 @@ class Solution {
     }
 }
 ```
+
+배열은 0부터 8까지 있지만 숫자는 1부터 9까지 있기에 val - 1의 숫자를 검사한다.  
+그 숫자가 이미 있으면 false를 반환하고, 없으면 해당 숫자에 해당하는 boolean 배열에 true를 넣어준다.  
+이후에 true를 만나면 false를 반환하는 식으로 루프가 도는 것이다.
+
+</br>
 
 일전에 코드스테이츠 Toy 문제에서 스도쿠 빈 칸을 채우는 어려운 문제를 맞닥뜨렸기에 유튜브에서 이 문제를 보면서 풀이를 참조했다.  
 스도쿠 문제가 정말 어려웠는데 확실히 이 영상을 한 번 보고나니 조금은 쉽게 다가오는 느낌이다.  
