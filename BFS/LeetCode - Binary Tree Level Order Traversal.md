@@ -19,7 +19,7 @@ Given the root of a binary tree, return the bottom-up level order traversal of i
 
 ## 예시
 
-(이미지 첨부)
+![Binary Tree Level Order Traversal II 예시](https://user-images.githubusercontent.com/75058239/128592252-1407f44b-200a-40af-88d4-8fba2d9b14b7.png)
 
 </br>
 
