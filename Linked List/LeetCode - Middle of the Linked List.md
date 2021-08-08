@@ -35,7 +35,7 @@ Linked List의 가운데 노드부터 끝까지를 배열로 리턴하라.
 
 ## 예시
 
-(이미지 첨부)
+![Middle of the Linked List 예시](https://user-images.githubusercontent.com/75058239/128620766-168304d0-9520-4d7d-a3f5-6de1489d9fc6.png)
 
 </br>
 
