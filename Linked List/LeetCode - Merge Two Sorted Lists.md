@@ -19,7 +19,7 @@ Merge two sorted linked lists and return it as a **sorted** list. The list shoul
 
 ## 예시
 
-(이미지 첨부)
+![Merge Two Sorted Lists 예시](https://user-images.githubusercontent.com/75058239/129026456-d3ec012a-0e44-4a31-b58a-a02f17e8500e.png)
 
 </br>
 
