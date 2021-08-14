@@ -140,3 +140,10 @@ public class Main {
 실상 별다른 차이점이 없는데도 말이다.  
 그러니 계속해서 이런 문제들을 찾아보고 풀어보자.  
 그리고 그런 과정 자체를 두려워 하지 말자.
+
+</br>
+
+## 참고 자료
+
+[얄팍한 코딩사전 - 재귀 함수가 뭔가요?](https://www.youtube.com/watch?v=aPYE0anPZqI&t=318s&ab_channel=%EC%96%84%ED%8C%8D%ED%95%9C%EC%BD%94%EB%94%A9%EC%82%AC%EC%A0%84)  
+백준 문제의 이름과 똑같은 영상 제목인데, 영상 안에 백준 문제와 똑같은 재귀 예시가 있어서 이렇게 Reference를 담아 보았다.
