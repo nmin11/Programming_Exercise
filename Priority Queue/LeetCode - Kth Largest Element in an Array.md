@@ -1,4 +1,4 @@
-## **LeetCode > Heap (Priority Queue) > Kth Largest Element in Array**
+## **LeetCode > Heap (Priority Queue) > Kth Largest Element in an Array**
 
 </br>
 
