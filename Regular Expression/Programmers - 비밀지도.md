@@ -29,7 +29,7 @@
 
 ## 예시
 
-(이미지 첨부 비밀지도)
+![비밀지도](https://user-images.githubusercontent.com/75058239/130169480-960cc0bd-4cb7-4998-862a-6e83561767cb.png)
 
 </br>
 
