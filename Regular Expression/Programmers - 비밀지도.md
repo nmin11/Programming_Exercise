@@ -29,14 +29,14 @@
 
 ## 예시
 
-(이미지 첨부 비밀지도)
+![비밀지도](https://user-images.githubusercontent.com/75058239/130169480-960cc0bd-4cb7-4998-862a-6e83561767cb.png)
 
 </br>
 
 ## 추가 사항
 
 - 1 <= n <= 16
-- arr1.length === arr2.length === n
+- arr1.length == arr2.length == n
 - 정수 배열의 각 원소 x를 이진수로 변환했을 때의 길이는 n 이하  
   0 <= x <= 2ⁿ-1
 
