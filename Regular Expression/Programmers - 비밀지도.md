@@ -36,7 +36,7 @@
 ## 추가 사항
 
 - 1 <= n <= 16
-- arr1.length === arr2.length === n
+- arr1.length == arr2.length == n
 - 정수 배열의 각 원소 x를 이진수로 변환했을 때의 길이는 n 이하  
   0 <= x <= 2ⁿ-1
 
