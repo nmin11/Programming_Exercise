@@ -90,7 +90,7 @@ class Solution {
 }
 ```
 
-이 문제를 풀기 몇 시간 전에 풀었던 [백준 곱셈 문제](https://github.com/nmin11/Programming_Exercise/blob/main/Mathematics/Baekjoon%20-%20%EA%B3%B1%EC%85%88.md)를 풀면서 charAt 메소드에 꽂혀 있었던지 charAt 메소드를 굉장히 무리해서 사용했다.  
+이 문제를 풀기 몇 시간 전에 풀었던 [백준 곱셈 문제](https://github.com/nmin11/Programming_Exercise/blob/main/Mathematics/Baekjoon%20-%20%EA%B3%B1%EC%85%88.md)를 풀면서 charAt 메소드에 꽂혀 있어서 그랬는지 charAt 메소드를 굉장히 무리해서 사용했다.  
 "코드 실행" 탭의 4가지 테스트 케이스는 다 통과할 수 있었지만, "제출하기" 탭의 10가지 테스트 케이스 중 1개는 실패했고, 1개는 런타임 10초를 초과해버렸다.  
 어떻게 수정해도 이 방법으로는 도저히 해답을 찾아낼 수 없겠다는 것을 느끼고 결국 구글링을 통해 해결을 보았다.
 
