@@ -13,7 +13,8 @@
 
 ## 영어 지문
 
-Given an array nums of distinct integers, return _all the possible permutations_. You can return the answer in **any order**.
+Given an array nums of distinct integers, return _all the possible permutations_.  
+You can return the answer in **any order**.
 
 </br>
 
@@ -22,6 +23,14 @@ Given an array nums of distinct integers, return _all the possible permutations_
 - 1 <= nums.length <= 6
 - -10 <= nums[i] <= 10
 - All the integers of nums are **unique**.
+
+</br>
+
+## 문제 요약
+
+저마다 다른 정수로 구성된 배열이 주어진다.  
+가능한 모든 순열을 반환하라.  
+반환하는 배열은 순서를 신경 쓸 필요가 없다.
 
 </br>
 
