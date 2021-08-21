@@ -2,7 +2,7 @@
 
 </br>
 
-[연습 문제 링크](https://leetcode.com/problems/sudoku-solver/)
+[연습 문제 링크](https://leetcode.com/problems/letter-case-permutation/)
 
 </br>
 
