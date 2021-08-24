@@ -53,7 +53,7 @@ class Solution {
 
 </br>
 
-(이미지 첨부 에라토스테네스의 체)
+![Sieve_of_Eratosthenes_animation](https://user-images.githubusercontent.com/75058239/130625322-3995136e-cec7-4865-9c04-401859cf7066.gif)
 
 </br>
 
