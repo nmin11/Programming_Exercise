@@ -1,4 +1,4 @@
-## **LeetCode > Binary Search Tree > Minimum Absolute Difference in BST**
+## **LeetCode > Dynamic Programming / Combinatorics > Unique Paths**
 
 </br>
 
