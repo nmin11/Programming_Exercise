@@ -35,7 +35,7 @@ m x n의 그리드에서 로봇은 맨 위, 맨 왼쪽에 있다.
 
 </br>
 
-## 승지니어 님의 풀이
+## [승지니어 님의 풀이](https://www.youtube.com/watch?v=cK_0tjzVCy4&ab_channel=%EC%8A%B9%EC%A7%80%EB%8B%88%EC%96%B4Sengineer)
 
 ```java
 class Solution {
