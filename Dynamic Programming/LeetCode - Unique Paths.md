@@ -1,4 +1,4 @@
-## **LeetCode > Dynamic Programming / Combinatorics > Unique Paths**
+## **LeetCode > Dynamic Programming > Unique Paths**
 
 </br>
 
