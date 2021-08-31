@@ -2,7 +2,7 @@
 
 </br>
 
-[연습 문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42586)
+[연습 문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42587)
 
 </br>
 
