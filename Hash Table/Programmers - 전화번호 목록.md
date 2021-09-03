@@ -1,4 +1,4 @@
-## **Programmers > 해시 > 소수 만들기**
+## **Programmers > 해시 > 전화번호 목록**
 
 </br>
 
