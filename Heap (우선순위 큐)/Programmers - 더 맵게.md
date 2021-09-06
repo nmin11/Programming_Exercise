@@ -1,4 +1,4 @@
-## **Programmers > 해시 > 더 맵게**
+## **Programmers > Heap > 더 맵게**
 
 </br>
 
