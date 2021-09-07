@@ -27,7 +27,7 @@
 
 </br>
 
-(이미지 첨부 디스크 - 순서대로 처리)
+<img width="628" alt="디스크 순서대로 처리" src="https://user-images.githubusercontent.com/75058239/132218836-5699c835-da9e-441e-86a1-da7fc23c5297.png">
 
 </br>
 
@@ -44,7 +44,7 @@ C: 2ms부터 대기하다가, 12ms 시점에 작업을 시작해서 18ms 시점�
 
 </br>
 
-(이미지 첨부 디스크 - 효율적인 처리)
+<img width="676" alt="디스크 효율적인 처리" src="https://user-images.githubusercontent.com/75058239/132218853-9c4a685c-36ff-4f05-bb8f-986f127a4415.png">
 
 </br>
 
