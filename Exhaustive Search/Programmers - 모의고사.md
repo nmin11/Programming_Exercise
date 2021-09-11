@@ -6,8 +6,8 @@
 
 </br>
 
-:books: 내가 사용한 프로그래밍 언어 : JavaScript  
-:roller_coaster: 난이도 : Level 1
+📚 내가 사용한 프로그래밍 언어 : JavaScript  
+🎢 난이도 : Level 1
 
 </br>
 
@@ -150,6 +150,45 @@ function solution(answers) {
 이해한 바를 말해보자면, filter 메소드 안의 비교 대상을 a[i % a.length]로 잡아줬는데, 여기서 %는 내가 5로 나눴을 때의 나머지, 8로 나눴을 때의 나머지, 10으로 나눴을 때의 나머지를 하나하나 비교한 것과 똑같은 작용을 한다.  
 이렇게 filter된 배열의 길이를 바로 변수에 담아줬기 때문에 각 수포자들의 점수를 깔끔하게 가려낼 수 있다.  
 Math.max를 활용하여 최댓값을 구한 것도 코드를 효과적으로 줄여주는 데에 한 몫 했다.
+
+</br>
+
+## 다른 사람의 풀이 (Java)
+
+```java
+import java.util.*;
+
+class Solution {
+    public static int[] solution(int[] answers) {
+        int[][] patterns = {
+                {1, 2, 3, 4, 5},
+                {2, 1, 2, 3, 2, 4, 2, 5},
+                {3, 3, 1, 1, 2, 2, 4, 4, 5, 5}
+        };
+
+        int[] hit = new int[3];
+        for(int i = 0; i < 3; i++) {
+            for(int j = 0; j < answers.length; j++) {
+                if(patterns[i][j % patterns[i].length] == answers[j]) hit[i]++;
+            }
+        }
+
+        int max = Math.max(hit[0], Math.max(hit[1], hit[2]));
+        List<Integer> list = new ArrayList<>();
+        for(int i = 0; i < hit.length; i++)
+            if(max == hit[i]) list.add(i + 1);
+
+        int[] answer = new int[list.size()];
+        int cnt = 0;
+        for(int num : list)
+            answer[cnt++] = num;
+        return answer;
+    }
+}
+```
+
+로직이 상당히 인상 깊었다.  
+솔직히 이런 접근 방식을 봐두고 다시 활용하라고 하면 무리겠다는 생각이 들지만, 여러 번 참고하면서 조금이라도 이런 로직을 짜는 방법에 더 익숙해지고자 한다.
 
 </br>
 
