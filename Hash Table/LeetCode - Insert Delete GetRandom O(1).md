@@ -1,4 +1,4 @@
-## **LeetCode > Array / Hash Table > Insert Delete GetRandom O(1)**
+## **LeetCode > Hash Table > Insert Delete GetRandom O(1)**
 
 </br>
 
