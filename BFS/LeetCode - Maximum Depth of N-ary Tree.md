@@ -1,4 +1,4 @@
-## **LeetCode > Breadth-First Search > ㅡ**
+## **LeetCode > Breadth-First Search > Maximum Depth of N-ary Tree**
 
 </br>
 
