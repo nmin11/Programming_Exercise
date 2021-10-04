@@ -1,4 +1,4 @@
-bb## **LeetCode > Breadth-First Search > ㅡ**
+## **LeetCode > Breadth-First Search > ㅡ**
 
 </br>
 
