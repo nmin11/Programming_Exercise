@@ -1,4 +1,4 @@
-bb## **LeetCode > Breadth-First Search > ㅡ**
+## **LeetCode > Breadth-First Search > Maximum Depth of N-ary Tree**
 
 </br>
 
@@ -21,13 +21,13 @@ Nary-Tree input serialization is represented in their level order traversal, eac
 
 ## 예시
 
-(이미지 첨부 1번)
+![maximum-depth-of-n-ary-tree-1](https://user-images.githubusercontent.com/75058239/135811272-57600620-9fd7-420a-aee4-e6b5be9cf4b6.png)
 
 **Input:** root = [1,null,3,2,4,null,5,6]
 
 </br>
 
-(이미지 첨부 2번)
+![maximum-depth-of-n-ary-tree-2](https://user-images.githubusercontent.com/75058239/135811287-78df95d2-eb0d-4796-ac94-00f3b887b6e0.png)
 
 **Input:** root = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]
 
