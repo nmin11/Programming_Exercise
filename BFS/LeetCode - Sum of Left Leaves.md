@@ -19,7 +19,7 @@ Given the root of a binary tree, return the sum of all left leaves.
 
 ## 예시
 
-(이미지 첨부)
+![left-sum](https://user-images.githubusercontent.com/75058239/137571690-f85f10b1-f8a5-4df9-ba69-b61c29c892fb.png)
 
 </br>
 
