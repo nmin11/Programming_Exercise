@@ -19,7 +19,9 @@ Given the root node of a binary search tree and two integers low and high, retur
 
 ## 예시
 
-(이미지 첨부 2개)
+![range sum of BST - 1](https://user-images.githubusercontent.com/75058239/137610305-1554ac2c-0aba-4ad7-b2f5-625dcdc2bb67.png)
+
+![range sum of BST - 2](https://user-images.githubusercontent.com/75058239/137610312-4333ea70-4471-4fb6-a8c2-7e467593b5fc.png)
 
 </br>
 
