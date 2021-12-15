@@ -19,14 +19,14 @@ Given the `root` of a binary tree, _check whether it is a mirror of itself_ (i.e
 
 ## 예시
 
-(이미지 첨부 1)
+![symtree1](https://user-images.githubusercontent.com/75058239/146114234-150b3e12-ab6c-46d8-8a7b-a8d82edd0914.jpg)
 
 **Input:** root = [1,2,2,3,4,4,3]  
 **Output:** true
 
 <br>
 
-(이미지 첨부 2)
+![symtree2](https://user-images.githubusercontent.com/75058239/146114241-748a46bb-3d71-42b0-a8af-d1f07599e5aa.jpg)
 
 **Input:** root = [1,2,2,null,3,null,3]  
 **Output:** false
