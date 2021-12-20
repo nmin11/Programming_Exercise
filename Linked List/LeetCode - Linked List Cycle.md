@@ -26,7 +26,7 @@ Otherwise, return `false`.
 
 ## 예시
 
-(이미지 첨부 1번)
+![linked list cycle 1](https://user-images.githubusercontent.com/75058239/146770567-4c161247-0f54-4764-b0c4-5d1e826c47cd.png)
 
 **Input:** head = [3,2,0,-4], pos = 1  
 **Output:** true  
@@ -34,7 +34,7 @@ Otherwise, return `false`.
 
 <br>
 
-(이미지 첨부 2번)
+![linked list cycle 2](https://user-images.githubusercontent.com/75058239/146770584-70006d23-e009-4526-b2af-e724c93ca890.png)
 
 **Input:** head = [1,2], pos = 0  
 **Output:** true  
@@ -42,7 +42,7 @@ Otherwise, return `false`.
 
 <br>
 
-(이미지 첨부 3번)
+![linked list cycle 3](https://user-images.githubusercontent.com/75058239/146770596-022e1001-8e0d-412f-a1f2-ff137295adaf.png)
 
 **Input:** root = [1], pos = -1  
 **Output:** false
