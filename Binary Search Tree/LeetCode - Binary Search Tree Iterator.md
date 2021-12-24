@@ -23,7 +23,7 @@ Implement the `BSTIterator` class that represents an iterator over the **in-orde
 
 ## 예시
 
-(이미지 첨부 bst-iterator)
+![bst-iterator](https://user-images.githubusercontent.com/75058239/147310665-bb385b1f-7ae9-4f3f-98c3-16a5f2051971.png)
 
 **Input**
 
