@@ -24,13 +24,13 @@ You can return any of them.
 
 ## 예시
 
-(이미지 첨부 insertbst)
+![insertbst](https://user-images.githubusercontent.com/75058239/147310700-ebdb0b40-2189-47dc-9af5-ffe647087f5d.jpg)
 
 **Input** : root = [4,2,7,1,3], val = 5  
 **Output** : [4,2,7,1,3,5]  
 **Explanation** : Another accepted tree is
 
-(이미지 첨부 insertbst2)
+![insertbst2](https://user-images.githubusercontent.com/75058239/147310703-75072130-f3a9-4160-8791-99f5865475f9.jpg)
 
 <br>
 
