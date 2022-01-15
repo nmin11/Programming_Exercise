@@ -1,15 +1,15 @@
 ## **Programmers > 2021 KAKAO BLIND RECRUITMENT > 신규 아이디 추천**
 
-</br>
+<br>
 
 [연습 문제 링크](https://programmers.co.kr/learn/courses/30/lessons/72410)
 
-</br>
+<br>
 
-:books: 내가 사용한 프로그래밍 언어 : Java, JavaScript  
-:roller_coaster: 난이도 : Level 1
+📚 내가 사용한 프로그래밍 언어 : Java, JavaScript  
+🎢 난이도 : Level 1
 
-</br>
+<br>
 
 ## 문제 요약
 
@@ -31,7 +31,7 @@
 6. new_id의 길이가 16자 이상이면 첫 15개의 문자를 제외한 나머지 문자들 제거
 7. new_id의 길이가 2자 이하라면 마지막 문자를 길이가 3이 될 때까지 반복해서 끝에 붙임
 
-</br>
+<br>
 
 ## 추가 사항
 
@@ -39,7 +39,7 @@
 - new_id는 알파벳 대문자 및 소문자, 숫자, 특수문자로 구성됨
 - new_id에 나타날 수 있는 특수문자는 <span class="evidence">-\*.~!@#$%^&\*()=+[{]}:?,<>/</span> 로 한정됨
 
-</br>
+<br>
 
 ## 풀이
 
@@ -83,8 +83,8 @@ if (answer.equals("")) {
 
 ```java
 if (answer.length() >= 16) {
-    answer = answer.substring(0, 15);
-    answer = answer.replaceAll("^[.]|[.]$", "");
+  answer = answer.substring(0, 15);
+  answer = answer.replaceAll("^[.]|[.]$", "");
 }
 ```
 
@@ -92,13 +92,13 @@ if (answer.length() >= 16) {
 
 ```java
 if (answer.length() <= 2) {
-    while (answer.length() < 3) {
-        answer += answer.charAt(answer.length()-1);
-    }
+  while (answer.length() < 3) {
+    answer += answer.charAt(answer.length()-1);
+  }
 }
 ```
 
-</br>
+<br>
 
 ## 해답
 
@@ -106,25 +106,25 @@ if (answer.length() <= 2) {
 
 ```java
 class Solution {
-    public String solution(String new_id) {
-        String id = new_id.toLowerCase();
-        id = id.replaceAll("[^-_.a-z0-9]", "");
-        id = id.replaceAll("[.]{2,}", ".");
-        id = id.replaceAll("^[.]|[.]$", "");
+  public String solution(String new_id) {
+    String id = new_id.toLowerCase();
+    id = id.replaceAll("[^-_.a-z0-9]", "");
+    id = id.replaceAll("[.]{2,}", ".");
+    id = id.replaceAll("^[.]|[.]$", "");
 
-        if(id.equals(""))
-            id += "a";
+    if(id.equals(""))
+      id += "a";
 
-        if(id.length() >= 16){
-            id = id.substring(0, 15);
-            id = id.replaceAll("^[.]|[.]$", "");
-        }
-        if(id.length() <= 2)
-            while(id.length() < 3)
-                id += id.charAt(id.length() - 1);
-
-        return id;
+    if(id.length() >= 16){
+      id = id.substring(0, 15);
+      id = id.replaceAll("^[.]|[.]$", "");
     }
+    if(id.length() <= 2)
+      while(id.length() < 3)
+        id += id.charAt(id.length() - 1);
+
+    return id;
+  }
 }
 ```
 
@@ -151,7 +151,28 @@ function solution(new_id) {
 }
 ```
 
-</br>
+### Kotlin
+
+```java
+class Solution {
+  fun solution(newId: String) = newId.toLowerCase()
+    .filter { it.isLowerCase() || it.isDigit() || it == '-' || it == '_' || it == '.' }
+    .replace("[.]*[.]".toRegex(), ".")
+    .removePrefix(".").removeSuffix(".")
+    .let { if (it.isEmpty()) "a" else it }
+    .let { if (it.length > 15) it.substring(0 until 15) else it }.removeSuffix(".")
+    .let {
+      if (it.length <= 2)
+        StringBuilder(it).run {
+          while (length < 3) append(it.last())
+          toString()
+        }
+      else it
+    }
+}
+```
+
+<br>
 
 ## 소감
 
